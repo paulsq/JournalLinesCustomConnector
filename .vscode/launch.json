@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "BusinessCentral",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "tenant": "606d2bd6-bae0-4766-8d4b-07321c1514ef",
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
